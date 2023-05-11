@@ -4,6 +4,8 @@
 > You can use the `-name` option in conjunction with `find` to locate all files that meet a specific criteria 
 * In this case, we an use the `-name` option and have it search for all files ending in ".txt":
 Upon running `stringsearch-data -name "*.txt"`: 
+
+
 stringsearch-data/technical/biomed/1471-2350-3-1.txt
 stringsearch-data/technical/biomed/1471-2350-3-12.txt
 stringsearch-data/technical/biomed/1471-2350-3-7.txt
