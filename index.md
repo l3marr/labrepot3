@@ -55,7 +55,7 @@ stringsearch-data/technical/biomed/1471-2334-3-9.txt
 >We can be more specific by changing the -size criteria:
 * `find stringsearch-data -size +100k` 
 * This command will find all files with a size of 100 kilobytes or larger
-stringsearch-data/technical/911report/chapter-1.txt
+> stringsearch-data/technical/911report/chapter-1.txt
 stringsearch-data/technical/911report/chapter-12.txt
 stringsearch-data/technical/911report/chapter-13.2.txt
 stringsearch-data/technical/911report/chapter-13.3.txt
@@ -73,7 +73,7 @@ stringsearch-data/technical/government/About_LSC/State_Planning_Report.txt
 > We can search based on type (Ex: file or directory) using the `type` option 
 * `find stringsearch-data -type f` 
 
-stringsearch-data/technical/biomed/1471-2369-3-9.txt
+> stringsearch-data/technical/biomed/1471-2369-3-9.txt
 stringsearch-data/technical/biomed/1471-2369-4-1.txt
 stringsearch-data/technical/biomed/1471-2369-4-5.txt
 stringsearch-data/technical/biomed/1471-2377-1-2.txt
@@ -83,7 +83,7 @@ stringsearch-data/technical/biomed/1471-2377-2-6.txt
 
 >We can also use `-type` to search for directories which we will soon notice are much less abundant than files 
 * `find stringsearch-data -type d`
-stringsearch-data/.git/branches
+> stringsearch-data/.git/branches
 stringsearch-data/.git/info
 stringsearch-data/.git/hooks
 stringsearch-data/technical/911report
@@ -102,7 +102,7 @@ stringsearch-data/technical/government/Env_Prot_Agen
 > This will find all files that have been accessed 10 minutes ago or later:
 * `find stringsearch-data -amin +10`
 
-stringsearch-data/technical/biomed/1471-2407-2-12.txt
+> stringsearch-data/technical/biomed/1471-2407-2-12.txt
 stringsearch-data/technical/biomed/1471-2407-2-15.txt
 stringsearch-data/technical/biomed/1471-2407-2-16.txt
 stringsearch-data/technical/biomed/1471-2407-2-17.txt
