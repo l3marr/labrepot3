@@ -1,4 +1,5 @@
 # Alternative uses and options for the `find` command
+*All of these uses and options for `find` were found through ChatGPT with the prompt "what are some uses for the find command". 
 
 ## 1.) Search for files by extention using `-name`
 > You can use the `-name` option in conjunction with `find` to locate all files that meet a specific criteria 
