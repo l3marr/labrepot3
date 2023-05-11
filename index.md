@@ -6,7 +6,7 @@
 Upon running `stringsearch-data -name "*.txt"`: 
 
 
-stringsearch-data/technical/biomed/1471-2350-3-1.txt
+> stringsearch-data/technical/biomed/1471-2350-3-1.txt
 stringsearch-data/technical/biomed/1471-2350-3-12.txt
 stringsearch-data/technical/biomed/1471-2350-3-7.txt
 stringsearch-data/technical/biomed/1471-2350-3-9.txt
