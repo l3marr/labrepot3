@@ -1,11 +1,11 @@
 # Alternative uses and options for the `find` command
-*All of these uses and options for `find` were found through ChatGPT with the prompt "what are some uses for the find command". 
+* All of these uses and options for `find` were found through ChatGPT with the prompt "what are some uses for the find command". 
 
 ## 1.) Search for files by extention using `-name`
 > You can use the `-name` option in conjunction with `find` to locate all files that meet a specific criteria 
 * In this case, we an use the `-name` option and have it search for all files ending in ".txt":
 Upon running ` find stringsearch-data -name "*.txt"`: 
-**This option is useful because it allows you to search for files based on the name of the file
+* This option is useful because it allows you to search for files based on the name of the file
 
 
 > stringsearch-data/technical/biomed/1471-2350-3-1.txt
@@ -38,7 +38,7 @@ stringsearch-data/technical/biomed/1471-2105-1-1.txt
 (and so on...)
 
 ## 2.) Find files based on size
-*The `-size` option is useful because it allows you to search for files based on specific size criteria
+* The `-size` option is useful because it allows you to search for files based on specific size criteria
 > You can use the `-size` option to search for files based on size criteria 
 * Ex: Using `find stringsearch-data -size +1k`
 * This command will find all files with a size of 1kb or greater 
@@ -85,7 +85,7 @@ stringsearch-data/technical/biomed/1471-2377-2-4.txt
 stringsearch-data/technical/biomed/1471-2377-2-6.txt
 (and so on..)
 
->We can also use `-type` to search for directories which we will soon notice are much less abundant than files 
+> We can also use `-type` to search for directories which we will soon notice are much less abundant than files 
 * `find stringsearch-data -type d`
 > stringsearch-data/.git/branches
 stringsearch-data/.git/info
