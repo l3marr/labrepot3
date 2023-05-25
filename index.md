@@ -5,6 +5,7 @@
 > You can use the `-name` option in conjunction with `find` to locate all files that meet a specific criteria 
 * In this case, we an use the `-name` option and have it search for all files ending in ".txt":
 Upon running ` find stringsearch-data -name "*.txt"`: 
+**This option is useful because it allows you to search for files based on the name of the file
 
 
 > stringsearch-data/technical/biomed/1471-2350-3-1.txt
@@ -37,6 +38,7 @@ stringsearch-data/technical/biomed/1471-2105-1-1.txt
 (and so on...)
 
 ## 2.) Find files based on size
+*The `-size` option is useful because it allows you to search for files based on specific size criteria
 > You can use the `-size` option to search for files based on size criteria 
 * Ex: Using `find stringsearch-data -size +1k`
 * This command will find all files with a size of 1kb or greater 
@@ -71,6 +73,7 @@ stringsearch-data/technical/government/About_LSC/State_Planning_Report.txt
 (and so on..) 
 
 ## 3). Using the -type option 
+* The `-type` option is useful because it allows you to search for files based on its type for example, a txt file.
 > We can search based on type (Ex: file or directory) using the `type` option 
 * `find stringsearch-data -type f` 
 
@@ -97,7 +100,7 @@ stringsearch-data/technical/government/Env_Prot_Agen
 (some examples of directories) 
 
 ## 4). Using the -amin option 
-
+* This option is useful because it can be used to find files that have been recently opened.
 > We can use the `-amin` option to find files based on the time that they were last accessed
 
 > This will find all files that have been accessed 10 minutes ago or later:
