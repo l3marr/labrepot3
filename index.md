@@ -3,6 +3,7 @@
 
 ## 1.) Search for files by extention using `-name`
 > You can use the `-name` option in conjunction with `find` to locate all files that meet a specific criteria 
+
 * In this case, we an use the `-name` option and have it search for all files ending in ".txt":
 Upon running ` find stringsearch-data -name "*.txt"`: 
 * This option is useful because it allows you to search for files based on the name of the file
